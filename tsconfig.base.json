@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "@huaman-ui": ["packages/footer/src/index.ts"],
-      "@huaman-ui/button": ["packages/button/src/index.ts"]
+      "@huaman-ui/button": ["packages/button/src/index.ts"],
+      "@huaman-ui/form": ["packages/form/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
