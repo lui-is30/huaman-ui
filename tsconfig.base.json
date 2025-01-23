@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@huaman-ui": ["packages/footer/src/index.ts"],
       "@huaman-ui/button": ["packages/button/src/index.ts"]
     }
   },
