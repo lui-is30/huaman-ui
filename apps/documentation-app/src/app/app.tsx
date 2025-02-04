@@ -9,16 +9,27 @@ import { Header } from '@huaman-ui/header';
 import { Grid } from '@huaman-ui/grid';
 import { Searchbar } from '@huaman-ui/searchbar';
 
-export function App() {
-  return (
-    <div>
-      <Button />
+
+import HeaderGlobal from '../components/HeaderGlobal';
+import ButtonDocumentation from '../components/ButtonDocumentation';
+import { Outlet } from 'react-router-dom';
+
+
+/**
+ * 
+ * <Button />
       <Footer />
       <Form />
       <Header />
       <Grid />
       <Searchbar />
-    </div>
+ */
+export function App() {
+  return (
+     <>
+     <HeaderGlobal />
+     <Outlet />
+     </>
   );
 }
 
