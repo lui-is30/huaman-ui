@@ -42,9 +42,9 @@ const HeaderGlobal=()=>{
 
         {/* Links (Desktop) */}
         <div className="hidden md:flex md:items-center md:space-x-6">
-        <a href="#" className="block py-2 px-4 hover:bg-blue-500 rounded">
-            Get Started
-          </a>
+        <Link to="/getStarted" >
+              Get Started
+            </Link>
           <Link to="/button" >
               Button
             </Link>

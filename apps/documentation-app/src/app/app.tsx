@@ -12,7 +12,7 @@ import { Searchbar } from '@huaman-ui/searchbar';
 
 import HeaderGlobal from '../components/HeaderGlobal';
 import ButtonDocumentation from '../components/ButtonDocumentation';
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 
 /**
@@ -28,6 +28,8 @@ export function App() {
   return (
      <>
      <HeaderGlobal />
+      
+
      <Outlet />
      </>
   );

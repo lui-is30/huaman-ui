@@ -9,6 +9,8 @@ import HeaderDocumentation from './components/HeaderDocumentation';
 import FormDocumentation from './components/FormDocumentation';
 import GridDocumentation from './components/GridDocumentation';
 import SearchBarDocumentation from './components/SearchBar';
+import GetStartedDocumentation from './components/GetStartedDocumentation';
+import Homepage from './components/Homepage';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -25,6 +27,8 @@ root.render(
       <Route path="form" element={<FormDocumentation />} />
       <Route path="grid" element={<GridDocumentation />} />
       <Route path="searchBar" element={<SearchBarDocumentation />} />
+      <Route path="getStarted" element={<GetStartedDocumentation />} />
+      <Route path='/' element={<Homepage />}/>
           </Route>
     </Routes>
   </BrowserRouter>
